@@ -34,6 +34,7 @@ A full-stack Bus Reservation System that allows users to book bus tickets betwee
 
 ---
 
+---
 ## 📂 Project Structure
 bus-reservation-system/
 ├── backend/ # Spring Boot project
@@ -51,7 +52,7 @@ bus-reservation-system/
 │ │ ├── App.jsx
 │ │ └── main.jsx
 │ └── tailwind.config.js
-
+---
 
 ---
 
