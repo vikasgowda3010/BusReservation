@@ -59,33 +59,28 @@ A full-stack Bus Reservation System that allows users to book bus tickets betwee
    
 2. Configure `application.properties`:
    ```bash
-  spring.datasource.url=jdbc:mysql://localhost:3306/busbooking
-  spring.datasource.username=your_username
-  spring.datasource.password=your_password
-  spring.jpa.hibernate.ddl-auto=update
+   spring.datasource.url=jdbc:mysql://localhost:3306/busbooking
+   spring.datasource.username=your_username
+   spring.datasource.password=your_password
+   spring.jpa.hibernate.ddl-auto=update
 
 3. Run the backend:
    ```bash
-  mvn spring-boot:run
+   mvn spring-boot:run
+  
 
-🚀 Booking Flow
+## 🚀 Booking Flow
 Landing Page → Select cities & travel date
-
 View Buses → Shows available buses
-
 Select Seats → Choose available seats
-
 Passenger Details → Input traveler info
-
 Payment Summary → Shows total cost
-
 Payment Page → Simulated or real payment
-
 Booking Success → Confirmation screen
 
 
 
-📦 API Endpoints (Sample)
+## 📦 API Endpoints (Sample)
 | Method | Endpoint                | Description          |
 | ------ | ----------------------- | -------------------- |
 | GET    | `/api/cities`           | Get all cities       |
@@ -94,8 +89,8 @@ Booking Success → Confirmation screen
 | POST   | `/api/payment/process`  | Process payment      |
 
 
-🙋‍♂️ Author
-Vikas
+## 🙋‍♂️ Author
+Vikas M G
 🚀 Developed as part of a full-stack web development project.
 
 
