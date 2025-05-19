@@ -35,23 +35,7 @@ A full-stack Bus Reservation System that allows users to book bus tickets betwee
 ---
 
 
-## 📂 Project Structure
-bus-reservation-system/
-├── backend/ # Spring Boot project
-│ ├── src/main/java/
-│ │ └── com/example/busbooking/
-│ │ ├── controller/
-│ │ ├── service/
-│ │ ├── repository/
-│ │ └── model/
-│ └── application.properties
-├── frontend/ # React project
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── App.jsx
-│ │ └── main.jsx
-│ └── tailwind.config.js
+
 
 
 ---
@@ -73,7 +57,7 @@ bus-reservation-system/
    ```bash
    cd backend
    
-2. Configure application.properties:
+2. Configure application.properties: ```bash
   spring.datasource.url=jdbc:mysql://localhost:3306/busbooking
   spring.datasource.username=your_username
   spring.datasource.password=your_password
