@@ -57,13 +57,15 @@ A full-stack Bus Reservation System that allows users to book bus tickets betwee
    ```bash
    cd backend
    
-2. Configure application.properties: ```bash
+2. Configure `application.properties`:
+   ```bash
   spring.datasource.url=jdbc:mysql://localhost:3306/busbooking
   spring.datasource.username=your_username
   spring.datasource.password=your_password
   spring.jpa.hibernate.ddl-auto=update
 
 3. Run the backend:
+   ```bash
   mvn spring-boot:run
 
 🚀 Booking Flow
