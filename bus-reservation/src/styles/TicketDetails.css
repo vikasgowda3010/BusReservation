@@ -1,0 +1,22 @@
+
+.ticket-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .ticket-info {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ticket-info p {
+    margin: 10px 0;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
+  

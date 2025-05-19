@@ -1,0 +1,31 @@
+.app-container {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  padding: 40px;
+  border-radius: 15px;
+  color: #343a40;
+}
+
+.app-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.booking-form-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background-image: url("../assets/city.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

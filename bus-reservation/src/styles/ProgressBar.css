@@ -1,0 +1,24 @@
+.progress-bar-container {
+    width: 100%;
+    background-color: #e0e0e0;
+    height: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 20px; 
+  }
+  
+  .progress-bar {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+  }
+  
+  .bus-icon {
+    position: absolute;
+    top: -20px; 
+    font-size: 24px; 
+    color: #4caf50;
+    transition: left 0.5s ease; 
+  }
+  

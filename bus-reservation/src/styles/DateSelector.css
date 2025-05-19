@@ -1,0 +1,10 @@
+.date-selector {
+  margin: 10px 0;
+}
+
+.date-selector select {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}

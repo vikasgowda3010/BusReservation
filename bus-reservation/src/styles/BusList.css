@@ -1,0 +1,93 @@
+
+.bus-list {
+  padding: 20px;
+  background: linear-gradient(135deg, #e2e2e2, #ffffff);
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.bus-list h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.bus-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bus-list li {
+  background: linear-gradient(135deg, #007bff, #6f42c1);
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+.bus-list li.selected {
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: #fff;
+}
+
+.bus-list li.selected .select-button {
+  background-color: #fff;
+  color: #28a745;
+}
+
+
+.select-button {
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.select-button:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+}
+
+.select-button:focus {
+  outline: none;
+}
+
+
+.validation-message {
+  color: #dc3545;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+
+.next-icon, .prev-icon {
+  font-size: 2rem;
+  color: #007bff;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+  margin: 20px;
+}
+
+.next-icon:hover, .prev-icon:hover {
+  color: #0056b3;
+  transform: scale(1.1);
+}
